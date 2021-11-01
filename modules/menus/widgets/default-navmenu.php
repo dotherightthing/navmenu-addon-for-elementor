@@ -5,8 +5,8 @@ use Elementor\Widget_Base;
 use Elementor\Controls_Manager;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Typography;
-use Elementor\Scheme_Color;
-use Elementor\Scheme_Typography;
+use Elementor\Core\Schemes\Color;
+use Elementor\Core\Schemes\Typography;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
@@ -196,8 +196,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Navbar Background', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#00215e',
 				'selectors' => [
@@ -212,8 +212,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Link Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#ffffff',
 				'selectors' => [
@@ -228,8 +228,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Background', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#00215e',
 				'selectors' => [
@@ -244,8 +244,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Link Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-nav-menu .menu-item a:hover' => 'color: {{VALUE}};',
@@ -259,8 +259,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Background Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-nav-menu .menu-item a:hover' => 'background-color: {{VALUE}};',
@@ -307,8 +307,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Active Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-nav-menu .current-menu-item > a, .elementor-nav-menu .current_page_item > a' => 'color: {{VALUE}};',
@@ -322,8 +322,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Active Background', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-nav-menu .current-menu-item > a, .elementor-nav-menu .current_page_item > a' => 'background-color: {{VALUE}};',
@@ -337,8 +337,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Active Link', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-nav-menu .current-menu-item > a:hover, .elementor-nav-menu .current_page_item > a:hover' => 'color: {{VALUE}};',
@@ -352,8 +352,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Active Background', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-nav-menu .current-menu-item > a:hover, .elementor-nav-menu .current_page_item > a:hover' => 'background-color: {{VALUE}};',
@@ -400,8 +400,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Submenu Links', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#ffffff',
 				'selectors' => [
@@ -416,8 +416,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Submenu Background', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#00215e',
 				'selectors' => [
@@ -432,8 +432,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Submenu Link Hover', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-nav-menu .sub-menu .menu-item a:hover' => 'color: {{VALUE}};',
@@ -447,8 +447,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Submenu Hover BG', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-nav-menu .sub-menu .menu-item a:hover' => 'background-color: {{VALUE}};',
@@ -495,8 +495,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Icon Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#ffffff',
 				'selectors' => [
@@ -511,8 +511,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Background Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#333333',
 				'selectors' => [
@@ -527,8 +527,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Icon Hover', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-menu-toggle:hover i.fa.fa-navicon' => 'color: {{VALUE}};',
@@ -542,8 +542,8 @@ class Default_Navmenu extends Widget_Base {
 				'label'     => __( 'Background Hover', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-menu-toggle:hover' => 'background-color: {{VALUE}};',
@@ -601,7 +601,7 @@ class Default_Navmenu extends Widget_Base {
 			[
 				'name'     => 'menu_typography',
 				'label'    => __( 'Typography', 'navmenu-addon-for-elementor' ),
-				'scheme'   => Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .elementor-nav-menu .menu-item',
 			]
 		);
