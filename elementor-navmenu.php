@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: NavMenu Addon For Elementor
+ * Plugin Name: NavMenu Addon For Elementor (patched)
  * Description: Adds new NavMenus to the Elementor Page Builder plugin. Now with Site Branding options, search box, basic MegaMenu and Fullscreen Menu Overlay
- * Plugin URI: https://themeisle.com/
+ * Plugin URI: https://github.com/dotherightthing/navmenu-addon-for-elementor
  * Author: ThemeIsle
  * Version: 1.1.2
  * Author URI: https://themeisle.com/
