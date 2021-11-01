@@ -105,8 +105,8 @@ class Elementor_Branding extends Widget_Base {
 					'el_site_branding' => 'title',
 				],
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => Elementor\Core\Schemes\Color::get_type(),
+					'value' => Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#333333',
 				'selectors' => [
@@ -124,8 +124,8 @@ class Elementor_Branding extends Widget_Base {
 					'el_site_branding' => 'title',
 				],
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => Elementor\Core\Schemes\Color::get_type(),
+					'value' => Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-branding .site-title a:hover' => 'color: {{VALUE}};',
@@ -156,7 +156,7 @@ class Elementor_Branding extends Widget_Base {
 				'condition' => [
 					'el_site_branding' => 'title',
 				],
-				'scheme'    => Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'    => Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector'  => '{{WRAPPER}} .elementor-branding .site-title',
 			]
 		);
@@ -198,8 +198,8 @@ class Elementor_Branding extends Widget_Base {
 					'el_site_branding' => 'title',
 				],
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => Elementor\Core\Schemes\Color::get_type(),
+					'value' => Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'selectors' => [
 					'{{WRAPPER}} .elementor-branding .site-description' => 'color: {{VALUE}};',
@@ -230,7 +230,7 @@ class Elementor_Branding extends Widget_Base {
 				'condition' => [
 					'el_site_branding' => 'title',
 				],
-				'scheme'    => Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'    => Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector'  => '{{WRAPPER}} .elementor-branding .site-description',
 			]
 		);

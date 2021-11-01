@@ -78,7 +78,7 @@ class Elementor_Search extends Widget_Base {
 			[
 				'name'     => 'search_typography',
 				'label'    => __( 'Typography', 'navmenu-addon-for-elementor' ),
-				'scheme'   => Scheme_Typography::TYPOGRAPHY_1,
+				'scheme'   => Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .elementor-search',
 			]
 		);
@@ -99,8 +99,8 @@ class Elementor_Search extends Widget_Base {
 				'label'     => __( 'Box Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => Elementor\Core\Schemes\Color::get_type(),
+					'value' => Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#333333',
 				'selectors' => [
@@ -115,8 +115,8 @@ class Elementor_Search extends Widget_Base {
 				'label'     => __( 'Box Background', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Scheme_Color::get_type(),
-					'value' => Scheme_Color::COLOR_1,
+					'type'  => Elementor\Core\Schemes\Color::get_type(),
+					'value' => Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#ffffff',
 				'selectors' => [
