@@ -86,7 +86,7 @@ class Mega_Menu extends Widget_Base {
 			[
 				'name'     => 'navbar_typography',
 				'label'    => __( 'Typography', 'navmenu-addon-for-elementor' ),
-				'scheme'   => Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .cbp-hsmenu',
 			]
 		);
@@ -105,7 +105,7 @@ class Mega_Menu extends Widget_Base {
 			[
 				'name'     => 'megamenu_typography',
 				'label'    => __( 'Typography', 'navmenu-addon-for-elementor' ),
-				'scheme'   => Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .cbp-hssubmenu',
 			]
 		);
@@ -126,8 +126,8 @@ class Mega_Menu extends Widget_Base {
 				'label'     => __( 'Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Elementor\Core\Schemes\Color::get_type(),
-					'value' => Elementor\Core\Schemes\Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#ffffff',
 				'selectors' => [
@@ -142,8 +142,8 @@ class Mega_Menu extends Widget_Base {
 				'label'     => __( 'Background', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Elementor\Core\Schemes\Color::get_type(),
-					'value' => Elementor\Core\Schemes\Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#00275e',
 				'selectors' => [
@@ -179,8 +179,8 @@ class Mega_Menu extends Widget_Base {
 				'label'     => __( 'Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Elementor\Core\Schemes\Color::get_type(),
-					'value' => Elementor\Core\Schemes\Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#a2a2a2',
 				'selectors' => [
@@ -195,8 +195,8 @@ class Mega_Menu extends Widget_Base {
 				'label'     => __( 'hover', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Elementor\Core\Schemes\Color::get_type(),
-					'value' => Elementor\Core\Schemes\Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#a2a2a2',
 				'selectors' => [
@@ -211,8 +211,8 @@ class Mega_Menu extends Widget_Base {
 				'label'     => __( 'Background', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Elementor\Core\Schemes\Color::get_type(),
-					'value' => Elementor\Core\Schemes\Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#f7f7f7',
 				'selectors' => [

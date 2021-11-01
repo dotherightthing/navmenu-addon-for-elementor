@@ -88,7 +88,7 @@ class Navmenu_Overlay extends Widget_Base {
 			[
 				'name'     => 'search_typography',
 				'label'    => __( 'Typography', 'navmenu-addon-for-elementor' ),
-				'scheme'   => Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
+				'scheme'   => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .overlay-navigation a',
 			]
 		);
@@ -109,8 +109,8 @@ class Navmenu_Overlay extends Widget_Base {
 				'label'     => __( 'Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Elementor\Core\Schemes\Color::get_type(),
-					'value' => Elementor\Core\Schemes\Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#ffffff',
 				'selectors' => [
@@ -125,8 +125,8 @@ class Navmenu_Overlay extends Widget_Base {
 				'label'     => __( 'Hover', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Elementor\Core\Schemes\Color::get_type(),
-					'value' => Elementor\Core\Schemes\Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#ffffff',
 				'selectors' => [
@@ -141,8 +141,8 @@ class Navmenu_Overlay extends Widget_Base {
 				'label'     => __( 'Overlay Background', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Elementor\Core\Schemes\Color::get_type(),
-					'value' => Elementor\Core\Schemes\Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '',
 				'selectors' => [
@@ -179,8 +179,8 @@ class Navmenu_Overlay extends Widget_Base {
 				'label'     => __( 'Color', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Elementor\Core\Schemes\Color::get_type(),
-					'value' => Elementor\Core\Schemes\Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#ffffff',
 				'selectors' => [
@@ -195,8 +195,8 @@ class Navmenu_Overlay extends Widget_Base {
 				'label'     => __( 'Background', 'navmenu-addon-for-elementor' ),
 				'type'      => Controls_Manager::COLOR,
 				'scheme'    => [
-					'type'  => Elementor\Core\Schemes\Color::get_type(),
-					'value' => Elementor\Core\Schemes\Color::COLOR_1,
+					'type'  => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default'   => '#000000',
 				'selectors' => [
